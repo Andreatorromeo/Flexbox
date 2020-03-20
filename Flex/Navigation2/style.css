@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: pink;
+    width: 30%;
+    height: 30%;
+}
+
+.navbar{
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.item1, .item2, .item3, .item4{
+    padding: 20px 0;
+    margin: auto;
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item1, .item2, .item3{
+    border-right: solid 1px red;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:red;
+}
+

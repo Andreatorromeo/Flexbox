@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 50em;
+    height: 50em;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: dotted 4px black;
+    
+    
+}
+
+.item{
+    flex-basis: 500px;
+    border: 3px solid pink;
+    padding: 3em;
+}

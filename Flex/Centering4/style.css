@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 45em;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    border: dotted 5px black;
+}
+
+.item1, .item2, .item3{
+    padding: 40px;
+    border: solid 2px pink;
+}
+
